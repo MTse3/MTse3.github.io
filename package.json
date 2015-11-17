@@ -1,0 +1,31 @@
+{
+  "name": "bus_route_mapper_done_right",
+  "version": "0.1.0",
+  "description": "an API to serve King County Metro Bus Data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CardinalWolsey/bus_route_mapper_done_right.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CardinalWolsey/bus_route_mapper_done_right/issues"
+  },
+  "homepage": "https://github.com/CardinalWolsey/bus_route_mapper_done_right#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "geojson-tools": "^0.2.1",
+    "mocha": "^2.3.3",
+    "superagent": "^1.4.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.5"
+  }
+}
